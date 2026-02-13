@@ -1,0 +1,6 @@
+streamlit
+anthropic
+python-docx
+PyPDF2
+pandas
+plotly
