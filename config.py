@@ -1,6 +1,6 @@
 """Configuration constants for Product Insight Synthesizer."""
 
-MODEL_ID = "claude-opus-4-6"
+MODEL_ID = "claude-sonnet-4-5-20250929"
 MAX_TOKENS_OUTPUT = 16384
 
 # Input categories with display metadata and synthesis weights.
