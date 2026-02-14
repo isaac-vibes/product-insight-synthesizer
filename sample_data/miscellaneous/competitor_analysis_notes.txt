@@ -1,0 +1,36 @@
+Competitor Analysis Notes — Fleet Emissions Software
+Compiled by: Derek (PM)
+Date: January 20, 2026
+
+GREENFLEET PRO
+- Offers CSV bulk import with smart column mapping
+- Has reporting templates for 12 states (we have 0)
+- Pricing: per-vehicle, no seasonal adjustment
+- Mobile app: basic, no offline mode
+- Recently raised $8M Series A, expanding sales team
+- Weakness: UI is clunky, analytics are basic
+- Note: Two of our prospects mentioned evaluating them
+
+ENVIROTRACK
+- Strong onboarding experience — guided wizard, pre-built templates by fleet type
+- Average time to first value: reportedly 2 days
+- Has Samsara and Geotab integrations built-in
+- Reporting: flexible but only federal compliance
+- Mobile: offline capable with sync
+- Weakness: expensive ($15/vehicle/month vs our $8), no state reporting
+- Note: Greenway's CS contact mentioned they're looking at EnviroTrack
+
+CLEARPATH FLEET
+- Enterprise-focused, $50K+ annual contracts
+- Role-based access controls (the feature our enterprise prospects keep asking for)
+- Custom reporting engine with drag-and-drop builder
+- Integration marketplace with 20+ connectors
+- Weakness: overkill for SMB, long implementation cycles (3-6 months)
+- Note: Meridian Transport is also evaluating them
+
+KEY TAKEAWAYS:
+- We're competitive on price and core tracking functionality
+- We're behind on: onboarding (EnviroTrack), reporting flexibility (ClearPath), integrations (both), bulk setup (GreenFleet)
+- Mobile offline is a differentiator opportunity — only EnviroTrack has it
+- State-specific reporting is a gap across the market — first mover advantage possible
+- Our support response time is becoming a liability vs. competitors who offer faster SLAs

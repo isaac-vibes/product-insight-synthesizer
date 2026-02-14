@@ -1,0 +1,35 @@
+Sales Demo Follow-up — Meridian Transport
+Date: February 3, 2026
+Participants: Tom Bradley (COO, Meridian), Angela Ruiz (Dir. Safety), Marcus Webb (AE)
+
+Marcus: Great to reconnect. You've had a week with the trial — what are your initial impressions?
+
+Tom: Angela, why don't you start since your team's been hands-on with it.
+
+Angela: Sure. So the good news is the dashboard is really clean. My team liked the visual layout. But we ran into some issues that are deal-breakers for us if they can't be resolved.
+
+Marcus: I'd love to hear them.
+
+Angela: Number one is the onboarding. We tried to set up our fleet — 89 vehicles — and there's no way to import from a CSV. We already have all our vehicle data in a spreadsheet. Having to type each one in manually is a non-starter for a fleet our size, let alone for Meridian's full operation with 2,000+ vehicles.
+
+Tom: And from my side, the pricing model doesn't quite work for us. You're charging per vehicle, but we have a lot of seasonal vehicles that are only active 4-5 months a year. We'd be paying full price for vehicles sitting in a lot.
+
+Marcus: That's fair feedback on pricing. Angela, what else came up?
+
+Angela: The reporting is the other big one. We're in six states, and each has different compliance requirements. Your platform seems to only support federal EPA reporting out of the box. We were hoping for something more flexible — ideally where we could configure custom report templates.
+
+Marcus: We're actually working on that —
+
+Angela: The other thing — and this might sound minor but it matters — is the user permissions. I need my drivers to only see their own vehicles, my regional managers to see their region, and my compliance team to see everything. Right now it seems like it's all-or-nothing.
+
+Tom: Let me add one more thing. We've been burned before by platforms that are great at demos but terrible at support. Our current vendor takes 5-7 business days to respond to tickets. For compliance software, that's unacceptable. If we switch to you, what does support look like?
+
+Marcus: We guarantee 24-hour response on all tickets, and critical compliance issues get escalated within 4 hours.
+
+Tom: Good to hear. But I'll be honest — I've heard that before. If you can get the bulk import, flexible reporting, and prove out the support SLA, we're very interested. Budget isn't the primary concern — it's whether the tool actually works for our scale.
+
+Angela: One more thing — does the platform integrate with Samsara? That's our telematics provider. If we could pull fuel consumption data directly instead of manual entry, that would be huge.
+
+Marcus: We have an API, but the Samsara integration is on our roadmap, not live yet.
+
+Tom: That's a common story in this space. Everyone has it "on the roadmap." Just be straight with us about timelines.

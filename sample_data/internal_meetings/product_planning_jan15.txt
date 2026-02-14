@@ -1,0 +1,35 @@
+Product Planning Meeting
+Date: January 15, 2026
+Attendees: Robbin (CEO), Kai (Eng Lead), Nadia (Design), Derek (PM), Sam (Data)
+
+Robbin: Alright, let's talk priorities for Q1. We've got the board meeting in March and I need to show traction. Where are we?
+
+Derek: So I've been looking at our onboarding metrics and they're not great. Average time to first value is 14 days. Industry benchmark for SaaS in our space is around 3-5 days. We're losing people in that gap.
+
+Kai: A lot of that is the vehicle setup flow. It's all manual right now — one vehicle at a time. I've been wanting to build a CSV import but it keeps getting deprioritized.
+
+Robbin: How much engineering effort?
+
+Kai: For basic CSV import, maybe two weeks. If we want to include validation, error handling, and the ability to map custom columns, more like a month.
+
+Nadia: I actually did some research on this. Five of our last seven churned accounts cited onboarding difficulty as a factor. It's not just the vehicle setup — it's the whole first-run experience. There's no guided flow, no templates, no "here's what to do first."
+
+Derek: The reporting side is another issue. I keep hearing from prospects that they need state-level compliance reports, not just federal. Every demo I sit in on, it comes up.
+
+Robbin: How many states are we talking?
+
+Derek: Realistically, we need to cover California, Oregon, Washington, Texas, and New York to start. Those are where 80% of our customers operate. But the underlying issue is that our reporting engine is rigid. It's hardcoded for the EPA template.
+
+Sam: From a data perspective, the reporting architecture needs a rethink anyway. Right now we compute emissions factors at query time, and some of the factors are hardcoded from 2024 data. We've gotten a couple support tickets about that.
+
+Robbin: That's a compliance risk for our customers. We need to fix that regardless of anything else.
+
+Kai: Agreed. I can have someone update the factors this sprint. But the bigger question is whether we build a flexible report builder or keep bolting on one-off templates.
+
+Robbin: I want to be smart about this. What's the fastest path to showing the board we're solving real customer problems?
+
+Nadia: I'd say bulk import plus a proper onboarding wizard. Those two things directly impact time-to-value, which impacts retention, which is what the board cares about.
+
+Derek: I'd add the state reporting templates. We have three enterprise deals in pipeline that are blocked on that capability.
+
+Robbin: Okay. Let's do this: Kai, scope out the CSV import and onboarding flow. Derek, get me the specific state requirements for the top five states. Sam, update those emission factors immediately — I don't want a compliance issue on our hands. Nadia, start designing the onboarding wizard. We'll reconvene Friday.

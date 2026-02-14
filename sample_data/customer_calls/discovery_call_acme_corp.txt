@@ -1,0 +1,31 @@
+Discovery Call — Acme Corp (Enterprise Prospect)
+Date: January 8, 2026
+Participants: Sarah Chen (VP Ops, Acme), Marcus Webb (AE), Lisa Tran (SE)
+
+Marcus: Thanks for taking the time, Sarah. Can you walk us through what you're currently dealing with?
+
+Sarah: Sure. So we're a fleet of about 1,200 vehicles across the Midwest. Right now our biggest headache is honestly just getting data into the system. We have drivers filling out paper forms, someone in the office is manually keying that into a spreadsheet, and then our compliance person has to re-enter it into the EPA reporting tool. It's insane.
+
+Lisa: How long does that whole process take?
+
+Sarah: End to end? For monthly reporting, my compliance team spends about two full weeks. And that's just for one regulatory body. We also report to state-level agencies, and each one wants slightly different formats. So Maria — she's our compliance lead — she's basically doing data entry for half the month.
+
+Marcus: And what happens when there are errors?
+
+Sarah: That's the scary part. Last quarter we got flagged for an inconsistency between our federal and state submissions. Turned out someone transposed two numbers during manual entry. Cost us about $15,000 in penalties and three weeks to resolve. And honestly, we got lucky — it could have been much worse.
+
+Lisa: Are you using any software currently for fleet management?
+
+Sarah: We use TruckTrax for maintenance scheduling, and we just started evaluating your platform. But the thing that frustrates me is every tool we look at assumes we already have clean, digital data. Nobody helps with the actual collection part. Like, our drivers are out in the field — some of them aren't super tech-savvy — and we need something that just works on a phone without a lot of training.
+
+Marcus: Makes sense. What about your reporting workflow — who typically needs to see the emissions data?
+
+Sarah: It goes to me, then to our CEO, and also to our sustainability consultant. But everyone wants it sliced differently. Our CEO wants a high-level dashboard — "are we on track?" kind of thing. The consultant wants granular data by vehicle class. And I need to see trends so I can plan fleet replacements. Right now I'm making three different reports manually in Excel.
+
+Lisa: If you could change one thing about your current process, what would it be?
+
+Sarah: Honestly? I just want one place where the data flows in automatically, and I can pull whatever view I need without starting from scratch every time. The reporting is what kills us. The data collection is painful too, but if reporting were faster, I'd sleep a lot better at night.
+
+Marcus: We hear that a lot. Last question — what's your timeline for making a decision?
+
+Sarah: We need to have something in place by Q3. The new EPA guidelines kick in October, and if we're still doing this manually we're going to miss deadlines. Our board is also starting to ask about ESG metrics, so there's pressure from that side too.

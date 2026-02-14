@@ -1,0 +1,31 @@
+Engineering Retrospective
+Date: January 28, 2026
+Attendees: Kai (Eng Lead), Aisha (Backend), Jorge (Frontend), Min (Mobile), Priya (QA)
+
+Kai: Let's run through the retro. What went well, what didn't, what do we want to change?
+
+Jorge: I'll start with what went well — we shipped the dashboard redesign on time and customer feedback has been positive. The new chart components are way more performant.
+
+Aisha: Agreed on that. What didn't go well for me was the support ticket queue. I got pulled into three critical tickets this sprint that weren't planned. Two were about emissions factor calculations being wrong, and one was a customer whose report generated blank pages.
+
+Kai: Yeah, the unplanned support work is killing our velocity. We need to figure out a better system. How much time did you lose?
+
+Aisha: Probably 30% of my sprint. And the emissions factor thing is a systemic issue — we're pulling from a static JSON file that nobody's updated since we launched. We need a proper data pipeline for regulatory data.
+
+Min: On the mobile side, the biggest complaint I keep seeing is offline functionality. Or lack thereof. Drivers in rural areas can't submit their logs, and by the time they get signal, they've forgotten the details. I've been wanting to build local storage with sync, but it's a decent chunk of work.
+
+Priya: From QA — our test coverage on the reporting module is really thin. I think that's why we keep shipping reporting bugs. The blank pages issue Aisha mentioned? That was a known edge case that we didn't have a test for. We have 85% coverage overall but the reporting module is at like 40%.
+
+Kai: That's a good callout. What should we prioritize?
+
+Jorge: I think the onboarding flow is critical. Nadia showed me her designs for the wizard and it looks great, but the frontend work is significant. There's a lot of conditional logic based on fleet size, vehicle types, regulatory requirements. I'd estimate 3-4 weeks of frontend work.
+
+Aisha: For backend, the CSV import is probably the most impactful thing I could build. I've sketched out the architecture — we'd need column mapping, validation, duplicate detection. The validation piece is important because bad data in means bad reports out.
+
+Min: Can I make a case for the offline mode? I know it's not as flashy, but we're literally losing customer data. And it's the kind of thing that, once it breaks trust with drivers, they stop using the app entirely. Then the whole data collection system falls apart.
+
+Kai: All valid points. Here's what I'm thinking for next sprint: Aisha takes CSV import, Jorge starts the onboarding wizard frontend, Min scopes out the offline architecture. Priya, can you backfill reporting tests while we figure out the larger reporting overhaul?
+
+Priya: Yes, but I want to flag something. We keep adding features without addressing the technical debt in reporting. Every new report template we add is a copy-paste of the federal template with modifications. We need a template engine, not more copy-paste.
+
+Kai: You're right. Let me talk to Robbin about carving out time for that in Q2. For now, let's focus on what moves the needle for customers this quarter.

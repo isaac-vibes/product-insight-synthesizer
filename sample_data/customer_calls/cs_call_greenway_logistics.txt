@@ -1,0 +1,31 @@
+Customer Success Check-in — Greenway Logistics
+Date: January 22, 2026
+Participants: Derek Okafor (Fleet Manager, Greenway), Priya Sharma (CSM)
+
+Priya: Hey Derek, thanks for hopping on. How's everything been going since your last onboarding session?
+
+Derek: It's been... mixed, honestly. The platform itself is great once you get into it. But getting our team onboarded has been rougher than I expected.
+
+Priya: Tell me more about that. Where are the friction points?
+
+Derek: So the main issue is the initial setup. We had to configure 340 vehicles, and for each one we had to enter the VIN, fuel type, model year, and emission class manually. There's no bulk import. My ops coordinator spent three days just doing data entry.
+
+Priya: Oh, that's painful. I know that's been flagged internally —
+
+Derek: Yeah, and then we hit another wall with the reporting. We need to generate state-specific compliance reports, and your system only has federal templates. So we're exporting the data, opening it in Excel, and reformatting it for California and Oregon requirements. That defeats half the purpose of having the software.
+
+Priya: That's really good feedback. Are you able to at least use the federal reporting as-is?
+
+Derek: Sort of. The federal report is mostly right, but the emissions factors seem outdated. We flagged this to support two weeks ago and haven't heard back. For a compliance tool, that's a pretty big deal — if we submit with wrong factors, we're liable, not you.
+
+Priya: I'm going to escalate that support ticket right now. That should not be a two-week wait.
+
+Derek: Appreciate that. Look, I want to be clear — when the tool works, it's fantastic. The real-time tracking is great, the driver app is intuitive. But the stuff around it — the setup, the reporting flexibility, the support response time — that's where we're struggling.
+
+Priya: Is there anything else your team has run into?
+
+Derek: One more thing — the mobile app doesn't work offline. Our drivers go through rural areas with no signal, and they can't log their fuel stops until they get back to a coverage area. Sometimes they forget by then. We lose maybe 10-15% of our data points because of this.
+
+Priya: That's a significant gap. I'm documenting all of this.
+
+Derek: I appreciate you actually listening. Our renewal is in four months, and right now I'd say we're 50/50 on whether we continue. If the reporting gets more flexible and support gets faster, we're probably in. Otherwise, we'll have to look at alternatives.

@@ -1,0 +1,29 @@
+Customer Success Team Sync
+Date: February 5, 2026
+Attendees: Priya Sharma (CS Lead), Jess Kim (CSM), Ryan Torres (CSM), Amara Osei (CS Ops)
+
+Priya: Let's go around. What are the top themes you're hearing from customers this week?
+
+Jess: My book of business is mostly mid-market, 100-500 vehicles. The number one thing I hear is about reporting. Specifically, they need custom reports for different stakeholders. A fleet manager wants operational data, a CFO wants cost analysis, and a compliance officer wants regulatory submissions. Right now they're all getting the same export and reformatting in Excel.
+
+Ryan: Same here but at the enterprise level. My customers have an additional layer — they need role-based access. Regional managers should see their region, not the whole fleet. I have one customer, Meridian, who's threatening to not renew because their safety director doesn't want drivers seeing company-wide data.
+
+Priya: The role-based access thing has come up in product planning. I think Robbin is aware but I'm not sure where it sits on the roadmap.
+
+Amara: From the ops side, I'm tracking our ticket volume and response times. A few data points: our average first response time has slipped from 6 hours to 22 hours over the last quarter. We're getting more tickets but the team hasn't grown. The most common ticket categories are: reporting issues (31%), onboarding help (24%), data discrepancies (18%), and mobile app issues (15%).
+
+Priya: That 22-hour response time is concerning. We promise 24 hours, so we're right at the edge.
+
+Ryan: And it's even worse for the emotional impact. When a customer has a compliance deadline and they're waiting almost a full day for a response on a data issue, they panic. I've had two customers call me directly because they couldn't get support fast enough.
+
+Jess: The onboarding tickets are interesting too. A lot of them are basically "how do I set up my fleet?" which tells me our self-serve experience isn't good enough. If 24% of tickets are onboarding-related, that's a product problem, not a support problem.
+
+Amara: I pulled the data on this — customers who submit an onboarding-related ticket in their first week have a 40% higher churn rate at 6 months compared to those who don't. The correlation is pretty strong.
+
+Priya: That's a powerful stat. Can you put that in a deck for the product team?
+
+Ryan: One more thing — I keep getting asked about integrations. Samsara, Geotab, KeepTruckin. Every enterprise customer has a telematics provider and they don't want to double-enter fuel data. We say "API available" but nobody wants to build their own integration. They want plug-and-play.
+
+Jess: Oh, and the mobile app offline thing. I had a customer show me their driver's phone — the app literally shows a blank screen when there's no signal. Not even an error message. Just blank. The driver thought the app was broken and deleted it.
+
+Priya: Alright, so the themes I'm hearing: reporting flexibility, role-based access, support response time, onboarding experience, integrations, and mobile offline. That's a lot. Let me prioritize these and bring them to the next product sync.

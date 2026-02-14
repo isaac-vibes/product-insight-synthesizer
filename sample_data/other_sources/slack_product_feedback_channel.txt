@@ -1,0 +1,28 @@
+Slack Channel: #product-feedback
+Exported: February 7, 2026
+
+---
+
+[Jan 9] @derek.pm: Just got off a call with a prospect (450 vehicles). They loved the demo but asked about CSV import for vehicle setup. When I told them it's manual entry only, there was a long pause. They said they'd "think about it." We're losing deals over this.
+
+[Jan 9] @marcus.sales: Same experience. Had three demos this week. All three asked about bulk import. Two of them specifically said they won't move forward without it.
+
+[Jan 12] @nadia.design: I've been looking at competitor onboarding flows. GreenFleet lets you upload a CSV and auto-maps columns. EnviroTrack has a guided wizard that takes you from zero to first report in under an hour. We're behind.
+
+[Jan 15] @jess.cs: Customer escalation from Greenway — they need Oregon DEQ report format and we only do federal. They're talking about not renewing. This is the third customer this month asking for state-specific reports.
+
+[Jan 18] @aisha.eng: FYI I found another emissions factor discrepancy. Our NOx values for Class 8 vehicles are using 2023 standards, not the updated 2025 values. This affects about 30% of our customer base. I'm fixing it but we really need a systematic approach to regulatory data updates.
+
+[Jan 22] @min.mobile: Got a bug report from the field — app crashes when trying to sync 10+ entries at once after being offline. The sync queue isn't handling batch operations well. This is a separate issue from the offline storage feature request but related.
+
+[Jan 25] @ryan.cs: Enterprise prospect Meridian Transport (2,000 vehicles) is asking about role-based permissions. They need regional managers to only see their fleet, not the whole company. This is a common enterprise requirement we keep punting on.
+
+[Jan 28] @priya.cs: I pulled our NPS data for January. Score dropped from 42 to 35. Top detractor comments: "reporting is inflexible" (7 mentions), "onboarding was painful" (5 mentions), "support is slow" (4 mentions). We need to address these.
+
+[Feb 1] @derek.pm: Putting together the Q1 roadmap proposal. Based on everything I'm hearing, the top candidates are: 1) CSV/bulk import, 2) Reporting template engine, 3) Mobile offline mode, 4) Onboarding wizard. Thoughts on priority order?
+
+[Feb 1] @robbin.ceo: @derek.pm The board is focused on net retention. Whatever moves that number fastest gets priority. Can you map these to retention data?
+
+[Feb 3] @amara.cs: Data point for the roadmap discussion: of our 12 churned accounts in Q4, 8 cited onboarding difficulty, 6 mentioned reporting limitations, and 4 said support was too slow. Some cited multiple reasons. The overlap between onboarding + reporting issues is significant.
+
+[Feb 5] @kai.eng: Just a reality check on capacity — we have 4 engineers and a Q1 deadline for SOC2 compliance work. We can probably take on 2 of those 4 initiatives, max. Choose wisely.
