@@ -38,10 +38,15 @@ def main():
         "get evidence-based opportunity maps in minutes."
     )
 
-    # API Key
+    # API Key — check env vars first, then Streamlit secrets (for Cloud deployment)
     api_key = os.getenv("ANTHROPIC_API_KEY", "")
     if not api_key:
-        st.warning("No `ANTHROPIC_API_KEY` found in environment. Enter it below or add it to a `.env` file.")
+        try:
+            api_key = st.secrets["ANTHROPIC_API_KEY"]
+        except (KeyError, FileNotFoundError):
+            pass
+    if not api_key:
+        st.warning("No `ANTHROPIC_API_KEY` found. Enter it below, add it to a `.env` file, or configure it in Streamlit secrets.")
         api_key = st.text_input("Anthropic API Key:", type="password", key="api_key_input")
         if not api_key:
             st.stop()
