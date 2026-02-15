@@ -2,7 +2,7 @@
 
 from datetime import datetime
 
-from config import INPUT_CATEGORIES
+from config import INPUT_CATEGORIES, MODEL_ID
 from lib.models import OSTResult, Source
 
 
@@ -215,7 +215,7 @@ def generate_markdown_report(result: OSTResult, sources: list[Source]) -> str:
     lines.append("   - Evidence-based synthesis")
     lines.append("4. **AI Processing:**")
     lines.append("   - Tool: Product Insight Synthesizer v1.0")
-    lines.append("   - Model: Claude Opus 4.6")
+    lines.append(f"   - Model: {MODEL_ID}")
     lines.append(f"   - Processing time: {result.processing_time_seconds:.1f}s")
     lines.append("")
     lines.append("**Confidence Levels:**")
