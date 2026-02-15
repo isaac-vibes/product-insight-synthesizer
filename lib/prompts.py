@@ -114,6 +114,8 @@ Prioritize patterns that:
 - Show high severity across sources
 
 List ALL patterns, even those in only 2-3 sources.
+
+IMPORTANT: Only identify patterns that are directly supported by the extracted insights above. Do not infer patterns beyond what the evidence shows. Every source_id in your evidence must correspond to an actual source from the input. Do not fabricate quotes — paraphrase if you cannot recall the exact wording. If a pattern has weak evidence, reflect that honestly in the severity and frequency.
 </task>
 
 {{insights_xml}}
@@ -200,6 +202,8 @@ visualization that shows users how problems span across organizational levels.
 The "aha moment" we want to create: "I knew this was a customer problem,
 but I didn't realize internal teams and support are also struggling with
 the same thing — fixing this one area has outsized impact."
+
+IMPORTANT: Every claim, problem, and solution must be traceable to specific sources from the input. Do not introduce information not present in the patterns. If evidence is thin for an opportunity, assign LOW confidence rather than fabricating supporting detail. Source counts in source_breakdown must reflect actual sources — do not count multiple mentions within a single source as separate sources.
 </task>
 
 {{patterns_xml}}
